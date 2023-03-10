@@ -1,5 +1,7 @@
 body {
   background-image: url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .container-fluid {
   padding-top: 70px;
@@ -18,7 +20,7 @@ body {
 }
 
 .navbar-nav li a:hover {
-  color: blue;
+  color: rgb(237, 33, 10);
 }
 
 .footer-padding {
@@ -31,7 +33,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #123456
+  background-color: #1079e1
 }
 
 .footer p {
