@@ -1,7 +1,5 @@
 body {
-  background-image: linear-gradient(to right, rgba(255,0,0,0),#00FFFF);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
+  background-image: url("bgimg.jpg");
 }
 .container-fluid {
   padding-top: 70px;
