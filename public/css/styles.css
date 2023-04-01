@@ -28,6 +28,17 @@ p{
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
 
 .navbar {
   background-image: linear-gradient(to left, rgba(255,0,0,0),#00FBCA);
