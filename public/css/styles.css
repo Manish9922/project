@@ -1,13 +1,7 @@
-.fill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden
-}
-.fill img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%
+body {
+  background-image: url("bgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
   font-size: 80px;
