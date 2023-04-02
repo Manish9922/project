@@ -1,9 +1,7 @@
 body {
   background-image: url("bgimg.jpg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
 }
 h1{
   font-size: 80px;
