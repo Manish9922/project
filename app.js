@@ -5,13 +5,11 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const kebabCase = require('lodash/kebabCase');
 
-const homeStartingContent = `Hey! Whatsup...
-Welcome to my daily blog website.
-Here I will be daily new contents and also share my experience with you.
+const homeStartingContent = `Hey!
+Welcome to our daily blog website.
 So be in touch Daily...`
-const aboutContent = `I am Manish Kumar Singh, Computer Science Engineer and currently working as Assistant Software Developer at TCS.
-Hope my contents are helping you.
-If any issues are faced then kindly contact me...`
+const aboutContent = `We are developers of this web blog and lets build it together
+If any issues are faced then kindly contact us...`
 const contactContent = "Phone no : +91-9523338938 Email id : mimanish54@gmail.com";
 
 const app = express();
@@ -50,7 +48,7 @@ app.get("/posts/:postTitle", function(req, res) {
 
   posts.forEach(function(post) {
     const postTitle = kebabCase(post.title);
-    if (postTitle === requestedTitle) {
+    if (postTitle == requestedTitle) {
       res.render("post", {
         postTitle : post.title,
         postBody : post.body
