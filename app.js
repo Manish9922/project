@@ -8,9 +8,8 @@ const kebabCase = require('lodash/kebabCase');
 const homeStartingContent = `Hey!
 Welcome to our daily blog website.
 So be in touch Daily...`
-const aboutContent = `We are developers of this web blog and lets build it together
-If any issues are faced then kindly contact us...`
-const contactContent = "Phone no : +91-9523338938 Email id : mimanish54@gmail.com";
+const aboutContent = `We are developers of this web blog and lets build it together. If any issues are faced then kindly contact us...`
+const contactContent = "Phone no : +91-9523338938 || Email id : mimanish54@gmail.com";
 
 const app = express();
 const posts = [];
@@ -65,10 +64,9 @@ app.post("/compose", function(req, res) {
     title: req.body.postTitle,
     body: req.body.postBody
   };
-
   posts.push(post);
-
   res.redirect("/");
+  
 });
 
 app.listen(process.env.PORT || 3000, function() {

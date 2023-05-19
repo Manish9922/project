@@ -10,14 +10,29 @@ h1{
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
+h2{
+  margin-top: 100px;
+  color: black;
+  text-align: center;
+  font-family: fantasy;
+}
 p{
   text-align: center;
   text-shadow: #09a3f1;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 20px;
-  color: rgb(3, 57, 111) ;
+  color: rgb(18, 58, 114) ;
 }
-
+label{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  color: #01060e;
+  text-decoration: underline;
+}
+input{
+  color: #10f8ec;
+}
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -49,7 +64,7 @@ p{
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #7acbf4
+  background-color: #597d90
 }
 
 .footer p {
