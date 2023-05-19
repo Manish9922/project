@@ -11,9 +11,16 @@ h1{
   animation: glow 1s ease-in-out infinite alternate;
 }
 h2{
-  margin-top: 100px;
+  text-decoration-style: solid;
+  margin-top: 30px;
+  font-size: 40px;
   color: black;
   text-align: center;
+  font-family: fantasy;
+}
+h3{
+  color: rgb(106, 3, 196);
+  text-align: left;
   font-family: fantasy;
 }
 p{

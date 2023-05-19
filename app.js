@@ -12,7 +12,7 @@ const aboutContent = `We are developers of this web blog and lets build it toget
 const contactContent = "Phone no : +91-9523338938 || Email id : mimanish54@gmail.com";
 
 const app = express();
-const posts = [];
+var posts = [];
 
 app.set('view engine', 'ejs');
 
@@ -43,10 +43,10 @@ app.get("/compose", function(req, res) {
 });
 
 app.get("/posts/:postTitle", function(req, res) {
-  const requestedTitle = kebabCase(req.params.postTitle);
+  var requestedTitle = kebabCase(req.params.postTitle);
 
   posts.forEach(function(post) {
-    const postTitle = kebabCase(post.title);
+    var postTitle = kebabCase(post.title);
     if (postTitle == requestedTitle) {
       res.render("post", {
         postTitle : post.title,
