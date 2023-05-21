@@ -5,9 +5,9 @@
 <form class="form-group" action="/compose" method="post">
   <div class="form-group">
     <label>Title</label>
-    <input class="form-control" type="text" name="postTitle" style="background-color:rgb(131, 255, 255);">
+    <input class="form-control" type="text" name="postTitle" placeholder="PostTitle" maxlength="20" size="20" style="background-color:rgb(161, 189, 189); width: max-content;">
     <label>Post</label>
-    <textarea class="form-control" name="postBody" rows="5" cols="30" style="background-color: rgb(131, 255, 255);"></textarea>
+    <textarea class="form-control" name="postBody" rows="4" cols="30" placeholder="PostContent" style="background-color: rgb(162, 182, 182);"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Publish</button>
 </form>

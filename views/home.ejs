@@ -3,10 +3,10 @@
 <h1>Blogging is an Art</h1>
 
 <p>
-  <%= homeStartingContent %>
+  Hey 
+  <%=user %>
+! Welcome to our daily blog website.
 </p>
-
-<h2>Publish your passion, your own way!!!</h2>
 
 <% posts.forEach(function(post){ %>
 <h3>
@@ -16,7 +16,8 @@
   <%= post.body.substring(0, 100) + "..." %>
   <a href="<%= "/posts/" + post.title %>">Read More</a>
 </p>
-<% });%>
 
+<% });%>
+<h2>Publish your passion, your own way!!!</h2>
 
 <%- include("partials/footer") -%>

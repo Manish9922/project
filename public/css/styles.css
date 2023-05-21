@@ -34,11 +34,8 @@ label{
   font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: italic;
-  color: #01060e;
+  color: #580707;
   text-decoration: underline;
-}
-input{
-  color: #10f8ec;
 }
 @-webkit-keyframes glow {
   from {
@@ -62,7 +59,7 @@ input{
 }
 
 .navbar-nav li a:hover {
-  color: rgb(0, 72, 255);
+  color: rgb(60, 213, 248);
 }
 
 .footer {
@@ -71,7 +68,7 @@ input{
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #597d90
+  background-color: #0077b7
 }
 
 .footer p {

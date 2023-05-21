@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+
+<h2>Login Credentials</h2>
+
+<form class="form-group" action="/login" method="post">
+    <div class="form-group">
+      <label>UserName</label>
+      <input class="form-control" type="text" name="username" placeholder="UserName" maxlength="20" size="20" style="background-color:rgb(200, 200, 200); width: max-content;">
+      <label>Password</label>
+      <input class="form-control" type="password" name="password" placeholder="Password" maxlength="10" size="10" style="background-color:rgb(200, 200, 200); width: max-content;"><br>
+    </div>
+    <button type="submit" class="btn btn-primary">LOGIN</button>
+  </form>
+
+<h2>Publish your passion, your own way!!!</h2>
+
+<%- include("partials/footer") -%>
